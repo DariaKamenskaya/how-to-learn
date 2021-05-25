@@ -17,24 +17,25 @@
   position: relative;
   background-color: #f2f2f2;
   display: flex;
-  justify-content: center;
-  align-items: center; /* выровняли текст по центру средствами flex */
+  /*justify-content: center;*/
+  /*align-items: center; */ /* выровняли текст по центру средствами flex */
 }
 
 .header__title {
-  margin: 0 0 0;
-  width: 530px;
-  position: absolute;
-  left: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 64px;
+  max-width: 730px; /*width: 530px;*/
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 5;
+  /*z-index: 5;*/
 }
 
 .header__subtitle {
   margin: 0 0 0;
-  width: 388px;
+  max-width: 388px; /*width: 388px;*/
   position: absolute;
   left: 64px;
   bottom: 30px;
