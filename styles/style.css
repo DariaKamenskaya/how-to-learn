@@ -75,10 +75,6 @@
   width: 183px;
   background-size: contain;
   background-repeat: no-repeat;
-  /*background-position: center;
-  display: flex;
-  justify-content: center;
-  align-self: center;*/
 }
 
 .logo_place_header {
@@ -183,21 +179,16 @@
 }
 
 
-
 .table {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto 0;
-}
-
-
-.list {
   list-style: none;
-  margin: 0 auto 0;
-  padding: 0 0 0; 
+  padding: 0 0 0;
 }
+
 
 .table__cell {
   width: 250px;
@@ -214,14 +205,10 @@
 
 
 .table__heading {
-  margin: 0;
+  margin: 0; /* auto 20px;*/
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-}
-
-.table__heading_space_bottom {
-  margin-bottom: 20px;
 }
 
 .table__heading_theme_dark {
@@ -232,14 +219,10 @@
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text_space_bottom {
-  margin-bottom: 20px;
 }
 
 .table__text_theme_dark {
