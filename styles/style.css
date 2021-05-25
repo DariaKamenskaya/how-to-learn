@@ -25,7 +25,7 @@
   margin: 0 0 0;
   width: 530px;
   position: absolute;
-  left: 64px;  
+  left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -36,7 +36,7 @@
   margin: 0 0 0;
   width: 388px;
   position: absolute;
-  left: 64px;  
+  left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
@@ -55,8 +55,8 @@
   width: 765px;
   height: 608px;
   position: absolute;
-  right: 0px;  
-  bottom: 0px; 
+  right: 0px;
+  bottom: 0px;
   z-index: 10;
 }
 
@@ -66,7 +66,7 @@
   margin: 0 0 0;
   background-color: #2f80ed;
   position: absolute;
-  right: 0px;  
+  right: 0px;
   top: 64px; 
 }
 
