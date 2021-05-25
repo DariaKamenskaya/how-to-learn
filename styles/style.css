@@ -30,7 +30,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  /*z-index: 5;*/
+  z-index: 10;
 }
 
 .header__subtitle {
@@ -42,7 +42,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 5;
+  z-index: 10;
 }
 
 .header__link {
@@ -58,7 +58,7 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
-  z-index: 10;
+  z-index: 5;
 }
 
 .header__square-pic {
@@ -307,6 +307,8 @@
   width: 60%;
   padding-top: 90px;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 5;
 }
 
 .kaufman__subtitle {
