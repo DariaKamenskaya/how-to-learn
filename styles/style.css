@@ -45,7 +45,7 @@
   z-index: 5;
 }
 
-.link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -330,7 +330,7 @@
   /*display: flex;*/
 }
 
-.feynman__link_position {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -338,6 +338,8 @@
 }
 
 .feynman__link_text {
+  text-decoration: none;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -361,7 +363,7 @@
   position: relative;
 }
 
-.triangle {
+.kaufman__triangle {
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
@@ -433,6 +435,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+  text-decoration: none;
   margin: 0;
 }
 
