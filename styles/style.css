@@ -158,7 +158,7 @@
   background-color: white;
 }
 
-.digits__title {
+.section-title {
   line-height: 1.15;
   margin: 0 auto 0;
   font-size: 60px;
@@ -168,7 +168,16 @@
   text-align: center;
 }
 
-.digits__subtitle {
+.section-title_theme_dark {
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 5;
+}
+
+
+.section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -176,6 +185,11 @@
   text-align: center;
   width: 60%;
   margin: 20px auto 0;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  margin: 0 auto 0;
 }
 
 
@@ -269,15 +283,13 @@
   top: 50%;
   right: 48px;
   z-index: 5;
-}
-
-.feynman__link_text {
   text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
+
 
 .feynman__img {
   width: 867px;
@@ -297,7 +309,7 @@
   position: relative;
 }
 
-.kaufman__title {
+/*.kaufman__title {
   line-height: 1.15;
   margin: 0 auto 0;
   font-size: 60px;
@@ -309,9 +321,9 @@
   padding-bottom: 20px;
   position: relative;
   z-index: 5;
-}
+}*/
 
-.kaufman__subtitle {
+/*.kaufman__subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -319,7 +331,7 @@
   text-align: center;
   width: 60%;
   margin: 0 auto 0;
-}
+}*/
 
 .kaufman__triangle {
   width: 877px;
@@ -345,14 +357,25 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
-  flex-basis: 711px;
+.footer__column {
+  margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0;
 }
+
+.footer__column_content_info {
+  justify-content:  flex-start;
+}
+
+.footer__column_content_social {
+  justify-content:  flex-start;
+ }
 
 .footer__author {
   margin: 18px 0 18px;
@@ -362,9 +385,6 @@
   color: white;
 }
 
-.footer__columns_content_info {
-  margin: 0;
-}
 
 .footer__column-heading {
   line-height: 30px;
@@ -393,9 +413,6 @@
   margin: 0;
 }
 
-.footer__columns_content-social {
- margin: 0;
-}
 
 .footer__social-icon {
   width: 16px;
