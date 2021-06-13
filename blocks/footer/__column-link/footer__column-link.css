@@ -6,5 +6,12 @@
     color: white;
     text-decoration: none;
     margin: 0;
+    transition: opacity 1.0s linear 0s;
   }
+
+  
+  .footer__column-link:hover {
+    opacity: 0.5;
+  } 
+  
   
