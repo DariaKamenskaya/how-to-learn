@@ -1,0 +1,11 @@
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto 0;
+    list-style: none;
+    padding: 0 0 0;
+  }
+  

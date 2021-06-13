@@ -1,0 +1,7 @@
+
+.digits {
+    margin: 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }

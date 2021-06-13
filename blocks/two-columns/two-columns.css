@@ -1,0 +1,9 @@
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80%;
+    margin: 0 auto 0;
+  }
+  

@@ -1,0 +1,7 @@
+.table__text_theme_dark {
+    /* Совпадает с table__text, но по заданию в брифе нужен модификатор */
+   line-height: 1.2;
+   font-size: 18px;
+   font-weight: normal;
+ }
+ 
