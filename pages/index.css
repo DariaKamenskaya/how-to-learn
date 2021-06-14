@@ -70,6 +70,10 @@
 @import url(../blocks/table/__heading/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+/* block "resources" */   
+@import url(../blocks/resources/resources.css);  
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css); 
 /* block "footer" */   
 @import url(../blocks/footer/footer.css); 
 @import url(../blocks/footer/__author/footer__author.css);
