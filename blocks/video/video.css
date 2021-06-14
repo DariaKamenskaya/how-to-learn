@@ -1,0 +1,8 @@
+.video {
+    margin: 100px 0 0;
+   /* display: flex;
+    flex-direction: column; */
+    background-color: white;
+    position: relative;
+    margin-bottom: -15px;
+  }

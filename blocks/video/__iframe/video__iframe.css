@@ -1,0 +1,12 @@
+.video__iframe {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  /* правый  отступ будет сброшен у каждого второго элемента с классом cards__item */
+.video__iframe:nth-of-type(2n) {
+	margin-right: 0;
+}
+    

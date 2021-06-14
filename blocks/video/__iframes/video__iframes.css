@@ -1,0 +1,13 @@
+.video__iframes {
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding: 0 0 0;
+    list-style: none;
+    opacity: 0.5;
+  }
+/* только для красоты */
+  .video__iframes:hover{
+    opacity: 1;
+  }
