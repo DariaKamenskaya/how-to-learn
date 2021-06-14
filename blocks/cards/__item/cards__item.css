@@ -1,0 +1,15 @@
+.cards__item {
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left:  0px;
+    margin-bottom: 60px;
+    list-style: none;
+    padding: 0 0 0;
+    width: 240px;
+  }
+
+  /* правый  отступ будет сброшен у каждого третьего элемента с классом cards__item */
+.cards__item:nth-of-type(3n) {
+	margin-right: 0;
+}
+  

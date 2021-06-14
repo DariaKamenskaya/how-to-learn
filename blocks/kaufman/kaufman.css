@@ -5,5 +5,6 @@
     margin: 0 0 0;
     padding-bottom: 90px;
     position: relative;
+    overflow: hidden;
   }
   
