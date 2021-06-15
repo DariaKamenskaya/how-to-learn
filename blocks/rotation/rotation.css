@@ -1,4 +1,4 @@
-@keyframes rotation {
+@keyframes rotation-360 {
     from {
     transform: rotate(0deg);
     }
@@ -8,6 +8,6 @@
   }
 
   
-.rotation-animation {
-    animation: rotation 20s linear infinite normal forwards;
+.rotation {
+    animation: rotation-360 20s linear infinite normal forwards;
   }
