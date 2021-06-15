@@ -3,9 +3,12 @@
     margin-bottom: -30px;
     margin-left: 0;
     margin-right: 20px;
+    width: 515px;
+    height: 316px;
     display: flex;
     position: relative;
     z-index: 10;
+    border: none;
   }
 
   /* правый  отступ будет сброшен у каждого второго элемента с классом cards__item */

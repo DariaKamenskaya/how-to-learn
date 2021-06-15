@@ -1,8 +1,14 @@
 
 .table__text {
-    margin: 20px 0 20px;
+    margin: 20px 0 0;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
   }
+
+
+  /* .table__text:last-of-type {
+    margin-top:  0;
+  } */
+  
   
