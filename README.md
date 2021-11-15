@@ -7,6 +7,6 @@
   
 Стек: HTML, CSS, БЭМ, Figma, Git.  
   
-Ссылка на проект: https://dariakamenskaya.github.io/russian-travel_kdd/index.html
+Ссылка на проект: https://dariakamenskaya.github.io/how-to-learn/
   
 Доработки: кроссбраузерность.  
